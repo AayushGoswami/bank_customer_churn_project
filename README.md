@@ -55,6 +55,19 @@ The workflow includes:
    ```
    Follow the notebook cells to download the dataset, preprocess data, train the model, and evaluate results.
 5. **The trained model will be saved as** `model/Bank_Churn_pred_model.joblib`.
+6. **Run the Streamlit app for interactive predictions:**
+   ```bash
+   streamlit run app.py
+   ```
+   This will launch a web interface where you can enter customer details and predict the likelihood of churn using the trained model.
+
+## Streamlit App - Bank Customer Churn Predictor
+A new Streamlit app (`app.py`) has been added for interactive customer churn prediction. The app allows users to input customer details and instantly see the prediction (whether the customer is likely to stay or leave) using the trained model. The app provides a user-friendly interface and visual feedback for predictions.
+
+### Features
+- Input fields for all model features (credit score, age, tenure, balance, etc.)
+- Real-time prediction with visual feedback (success, error, balloons)
+- Uses the trained model saved at `model/Bank_Churn_pred_model.joblib`
 
 ## License
 See [LICENSE](LICENSE) for details.
