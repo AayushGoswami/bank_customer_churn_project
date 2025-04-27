@@ -69,5 +69,8 @@ A new Streamlit app (`app.py`) has been added for interactive customer churn pre
 - Real-time prediction with visual feedback (success, error, balloons)
 - Uses the trained model saved at `model/Bank_Churn_pred_model.joblib`
 
+## Try the App Online
+The Streamlit app is deployed and available online. You can access and try out the app [**here**](https://bank-churnpredictor.streamlit.app)
+
 ## License
 See [LICENSE](LICENSE) for details.
